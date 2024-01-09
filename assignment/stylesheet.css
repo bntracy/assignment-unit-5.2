@@ -1,16 +1,19 @@
-header {
+body {
+    margin: 0;
+}
+
+.record-page {
+    background-image: url("record.png");
+    background-repeat: repeat;
+}
+
+.record-page-header {
     background-color: slateblue;
     color: white;
     text-align: center;
 }
 
-main {
+.record-page-main {
     background-color: lightgrey;
     padding: 1em;
-}
-
-body {
-    background-image: url("record.png");
-    background-repeat: repeat;
-    margin: 0;
 }
